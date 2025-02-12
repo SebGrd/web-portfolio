@@ -61,7 +61,7 @@ export default function Home() {
             <div className="flex flex-col items-start grow gap-4">
               <div className="flex justify-between w-full">
                 <h3 className="font-semibold">Challenger</h3>
-                <a href="https://github.com/decode-school/design-system">
+                <a href="https://github.com/SebGrd/challenger">
                   <Image src={"/github.svg"} alt="Github" width={24} height={24} />
                 </a>
               </div>
@@ -87,7 +87,7 @@ export default function Home() {
             <div className="flex flex-col items-start grow gap-4">
               <div className="flex justify-between w-full">
                 <h3 className="font-semibold">Music App</h3>
-                <a href="https://github.com/decode-school/design-system">
+                <a href="https://github.com/SebGrd/spotify-music-app">
                   <Image src={"/github.svg"} alt="Github" width={24} height={24} />
                 </a>
               </div>
