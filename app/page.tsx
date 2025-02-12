@@ -8,9 +8,9 @@ export default function Home() {
       <Header />
       <main>
         <section className="py-24">
-          <p className="text-5xl font-bold tracking-tighter text-center">Dedicated to building websites <br />that excel, delivering quality that stands out in every detail.</p>
+          <p className="text-4xl sm:text-5xl font-bold tracking-tighter text-center">Dedicated to building websites <br />that excel, delivering quality that stands out in every detail.</p>
         </section>
-        <section className="flex justify-center gap-16 py-24">
+        <section className="flex justify-center flex-wrap gap-16 py-24">
           <div className="flex flex-col items-center">
             <span className="font-bold text-4xl">+6</span>
             <span className="text-zinc-400">Years of experience</span>
@@ -34,8 +34,8 @@ export default function Home() {
         </section>
         <section className="py-24">
           <h2 className="font-alt text-xl font-bold mb-4">Recent work</h2>
-          <article className="flex gap-8 mb-16">
-            <Image src="/projet-decode.png" alt="Profile picture" width={400} height={200} />
+          <article className="flex flex-col md:flex-row gap-8 mb-16">
+            <Image src="/projet-decode.png" alt="Profile picture" className="w-full md:w-auto" width={400} height={200} />
             <div className="flex flex-col items-start grow gap-4">
               <div className="flex justify-between w-full">
                 <h3 className="font-semibold">Design System Decode</h3>
@@ -56,8 +56,8 @@ export default function Home() {
               </div>
             </div>
           </article>
-          <article className="flex gap-8 mb-16">
-            <Image src="/projet-challenger.png" alt="Profile picture" width={400} height={200} />
+          <article className="flex flex-col md:flex-row gap-8 mb-16">
+            <Image src="/projet-challenger.png" alt="Profile picture" className="w-full md:w-auto" width={400} height={200} />
             <div className="flex flex-col items-start grow gap-4">
               <div className="flex justify-between w-full">
                 <h3 className="font-semibold">Challenger</h3>
@@ -82,8 +82,8 @@ export default function Home() {
               </div>
             </div>
           </article>
-          <article className="flex gap-8 mb-16">
-            <Image src="/projet-music.png" alt="Profile picture" width={400} height={200} />
+          <article className="flex flex-col md:flex-row gap-8 mb-16">
+            <Image src="/projet-music.png" alt="Profile picture" className="w-full md:w-auto" width={400} height={200} />
             <div className="flex flex-col items-start grow gap-4">
               <div className="flex justify-between w-full">
                 <h3 className="font-semibold">Music App</h3>
