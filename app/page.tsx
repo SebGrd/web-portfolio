@@ -34,7 +34,7 @@ export default function Home() {
         </section>
         <section className="py-24">
           <h2 className="font-alt text-xl font-bold mb-4">Recent work</h2>
-          <article className="flex flex-col md:flex-row gap-8 mb-16">
+          <article className="flex flex-col md:flex-row gap-8 mb-24">
             <Image src="/projet-decode.png" alt="Profile picture" className="w-full md:w-auto" width={400} height={200} />
             <div className="flex flex-col items-start grow gap-4">
               <div className="flex justify-between w-full">
@@ -56,7 +56,7 @@ export default function Home() {
               </div>
             </div>
           </article>
-          <article className="flex flex-col md:flex-row gap-8 mb-16">
+          <article className="flex flex-col md:flex-row gap-8 mb-24">
             <Image src="/projet-challenger.png" alt="Profile picture" className="w-full md:w-auto" width={400} height={200} />
             <div className="flex flex-col items-start grow gap-4">
               <div className="flex justify-between w-full">
@@ -82,7 +82,7 @@ export default function Home() {
               </div>
             </div>
           </article>
-          <article className="flex flex-col md:flex-row gap-8 mb-16">
+          <article className="flex flex-col md:flex-row gap-8">
             <Image src="/projet-music.png" alt="Profile picture" className="w-full md:w-auto" width={400} height={200} />
             <div className="flex flex-col items-start grow gap-4">
               <div className="flex justify-between w-full">
@@ -109,7 +109,7 @@ export default function Home() {
           <h2 className="font-alt text-xl font-bold mb-4">Q&A</h2>
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
-              <AccordionTrigger>Why such a simple website as your portfolio?</AccordionTrigger>
+              <AccordionTrigger>Why such a simple portfolio?</AccordionTrigger>
               <AccordionContent>
                 Well, there are two schools of portfolio, the impressive ones that are stylish and the efficient ones that are easy to read and navigate for you reading this 😉
               </AccordionContent>
