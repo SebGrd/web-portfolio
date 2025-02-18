@@ -6,7 +6,8 @@ export default function Header() {
             <Image src="/pp-w.png" alt="Profile picture" width={100} height={100} />
             <div>
                 <h1 className="text-4xl text-center sm:text-left font-bold font-alt">Sébastien Gaudard</h1>
-                <p className="text-xl text-center sm:text-left font-medium mb-2">Fullstack developer</p>
+                <p className="text-xs text-muted-foreground mb-2 text-center sm:text-left">Paris, France</p>
+                <p className="text-xl text-center sm:text-left font-medium mb-0">Fullstack developer</p>
                 <div className="flex items-center justify-center sm:justify-start flex-wrap space-x-2 mb-4">
                     <span className="text-muted-foreground">Front-end master</span>
                     <div className="size-1 bg-foreground rounded-full"></div>

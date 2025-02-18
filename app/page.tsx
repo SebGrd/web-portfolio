@@ -5,6 +5,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="mx-auto container">
+      <div className="h-1 w-full fixed inset-0" style={{
+        background: "linear-gradient(90deg, rgba(0,0,145,1) 0%, rgba(0,0,145,1) 33%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 66%, rgba(201,25,30,1) 66%, rgba(201,25,30,1) 100%)"
+      }}></div>
       <Header />
       <main>
         <section className="py-24">
